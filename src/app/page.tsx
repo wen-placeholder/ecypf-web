@@ -1,5 +1,7 @@
 'use client';
 import React from 'react';
+import Image from 'next/image';
+import logoSrc from '../../public/logo.jpg';
 
 /**
  * Europe-China Youth Peace Forum ｜ 单页官网（组件化版本）
@@ -86,9 +88,10 @@ export default function Home() {
       <header className="backdrop-blur supports-[backdrop-filter]:bg-[#e6efea]/80 sticky top-0 z-50 border-b border-[#6a8f82]/30">
         <div className="mx-auto max-w-7xl px-4 py-3 flex items-center justify-between">
           <a href="#top" className="flex items-center gap-3 group">
-            <div className="w-8 h-8 rounded-lg bg-[#6a8f82] grid place-items-center text-white font-bold">
+            {/* <div className="w-8 h-8 rounded-lg bg-[#6a8f82] grid place-items-center text-white font-bold">
               Y
-            </div>
+            </div> */}
+            <Image src={logoSrc} alt="Logo" width={50}/>
             <div className="leading-tight">
               <div className="font-semibold text-[#3b6351]">欧华青年和平论坛</div>
               <div className="text-xs text-neutral-600">Europe-China Youth Peace Forum</div>
