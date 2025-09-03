@@ -75,7 +75,6 @@ export default function Home() {
     { id: 'basic', label: '基本信息' },
     { id: 'agenda', label: '详细议程' },
     { id: 'highlights', label: '活动亮点' },
-    { id: 'roundtables', label: '圆桌议题' },
     { id: 'organizers', label: '组织架构' },
     { id: 'register', label: '报名与联系' },
     { id: 'volunteers', label: '加入志愿者' },
