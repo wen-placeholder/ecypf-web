@@ -1,7 +1,7 @@
 'use client';
 import React, { createContext, useContext, useMemo, useState } from 'react';
 import Image from 'next/image';
-import logoSrc from '../../public/logo.jpg';
+import logoSrc from '../../public/LOGO.png';
 
 /** ------------------------------------------------
  *  Minimal i18n by Context + Dictionary
@@ -396,7 +396,7 @@ export default function Home() {
         <header className="backdrop-blur supports-[backdrop-filter]:bg-[#e6efea]/80 sticky top-0 z-50 border-b border-[#6a8f82]/30">
           <div className="mx-auto max-w-7xl px-4 py-3 flex items-center justify-between">
             <a href="#top" className="flex items-center gap-3 group">
-              <Image src={logoSrc} alt="Logo" width={50} />
+              <Image src={logoSrc} alt="Logo" width={80} />
               <div className="leading-tight">
                 <div className="font-semibold text-[#3b6351]">{t.siteFull}</div>
                 <div className="text-xs text-neutral-600">{t.siteFullEn}</div>
